@@ -1,0 +1,33 @@
+// GET covid cases 
+
+GET http://localhost:3000/states/
+
+###
+//get by stateId
+GET http://localhost:3000/state/:stateId/
+
+
+### 
+POST http://localhost:3000/districts/
+
+###
+//GET by IDs
+GET http://localhost:3000/districts/:districtId/
+
+###
+//delete 
+DELETE http://localhost:3000/districts/:districtId/
+###
+//update 
+
+PUT http://localhost:3000/districts/:districtId/
+
+###
+
+GET http://localhost:3000/states/:stateId/stats/
+
+### 
+//API 8 
+
+GET http://localhost:3000/districts/:districtId/details/
+
